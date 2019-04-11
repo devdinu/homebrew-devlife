@@ -2,8 +2,8 @@ require 'tmpdir'
 
 class GcloudClient < Formula
   desc "gcloud-client tool which does more for devs than gcloud"
-  url "https://github.com/devdinu/gcloud-client.git", :using => :git, :tag => "v0.1.1"
-  version "0.1.1"
+  url "https://github.com/devdinu/gcloud-client.git", :using => :git, :tag => "v0.1.2"
+  version "0.1.2"
 
   depends_on "tmux"
   depends_on "go" => :build
